@@ -162,7 +162,7 @@ export default function RoboMasterTeamHome() {
             <p className="mt-4 max-w-xl text-base leading-relaxed text-white/70 md:text-lg">
               我们是一支充满创造力与执行力的高校机器人战队，专注机械、电控、硬件、视觉与运营协作，
               在赛场上把灵感变成速度与精度。
-              QQ纳新群（入队必加）:1030813087
+                           QQ纳新群（入队必加）:1030813087
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-4" id="links-quick">
