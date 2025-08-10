@@ -149,7 +149,7 @@ export default function RoboMasterTeamHome() {
           <div>
             <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-white/70">
               <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-400" />
-              2025 赛季 招新进行中
+              2026 赛季 招新进行中
             </div>
             <h1 className="mt-4 text-4xl font-black leading-tight md:text-5xl lg:text-6xl">
               <span className="bg-gradient-to-r from-fuchsia-400 via-cyan-300 to-emerald-400 bg-clip-text text-transparent">
@@ -215,8 +215,8 @@ export default function RoboMasterTeamHome() {
             <div className="pointer-events-none absolute inset-0 -z-10 opacity-40 [background:radial-gradient(1200px_circle_at_20%_20%,rgba(99,102,241,.25),transparent_60%),radial-gradient(900px_circle_at_80%_30%,rgba(16,185,129,.2),transparent_55%),radial-gradient(700px_circle_at_50%_90%,rgba(236,72,153,.2),transparent_50%)]" />
             <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
               <div>
-                <h3 className="text-2xl font-semibold">2025 赛季校内招新</h3>
-                <p className="mt-2 max-w-xl text-white/70">填写报名表，我们会在 72 小时内邮件回复并安排群面/试工坊。</p>
+                <h3 className="text-2xl font-semibold">2026 赛季校内招新</h3>
+                <p className="mt-2 max-w-xl text-white/70">填写报名表，我们会在正式面试开始 72 小时内邮件回复并安排群面/试工坊。</p>
                 <div className="mt-3 inline-flex items-center gap-3 text-sm text白/60">
                   <MapPin className="h-4 w-4" /> 智能制造学院/社团发展中心 · 周一/三/五 晚
                 </div>
@@ -366,7 +366,7 @@ function GroupModal({ meta, onClose }: { meta: GroupMeta; onClose: () => void })
                 <div className="h-full w-full rounded-[14px] bg-black p-1"><Icon className="h-full w-full" /></div>
               </div>
               <div>
-                <h3 className="text-xl font-semibold">{meta.name} · 子主页</h3>
+                <h3 className="text-xl font-semibold">{meta.name} </h3>
                 <p className="text-sm text-white/70">{meta.brief}</p>
               </div>
             </div>
